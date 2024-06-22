@@ -1,0 +1,177 @@
+body {
+    background-color: #11e2ae;
+}
+
+img{
+    height: 100%;
+    max-width: auto;
+}
+
+.header {
+    align-items: center;
+    height: 10vh;
+    background: linear-gradient(90deg, #f542a7 1.18%, #A626D3 100%);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.upperRow{
+    display: flex;
+    height: 45vh;
+}
+.lowerRow{
+    display: flex;
+    height: 45vh;
+}
+
+.topCard1{
+    width: 30vw;
+    height:auto;
+    position:relative;
+    background: linear-gradient(90deg, #e84210 1.18%, #e4a260 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+    margin:10px;
+    border: 4px solid #000;
+}
+
+.topCard1:hover{
+    cursor:pointer;
+}
+.topCard2{
+    width: 30vw;
+    height:auto;
+    position:relative;
+    background: linear-gradient(90deg, #e84210 1.18%, #e4a260 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+    margin:10px;
+    border: 4px solid #000;
+}
+
+.topCard2:hover{
+    cursor:pointer;
+}
+.topCard3{
+    width: 30vw;
+    height:auto;
+    position:relative;
+    background: linear-gradient(90deg, #e84210 1.18%, #e4a260 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+    margin:10px;
+    border: 4px solid #000;
+}
+
+.topCard3:hover{
+    cursor:pointer;
+}
+
+.bottomCard4:hover{
+    cursor:pointer;
+}
+
+.bottomCard4{
+    width: 30vw;
+    height:auto;
+    position:relative;
+    background: linear-gradient(90deg, #50d607 1.18%, #75d669 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+    margin: 10px;
+    color:rgb(19, 2, 49);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    overflow: hidden;
+    word-wrap: break-word;
+    border: 4px solid #000;
+}
+.bottomCard5:hover{
+    cursor:pointer;
+}
+
+.bottomCard5{
+    width: 30vw;
+    height:auto;
+    position:relative;
+    background: linear-gradient(90deg, #50d607 1.18%, #75d669 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+    margin: 10px;
+    color:rgb(19, 2, 49);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    overflow: hidden;
+    word-wrap: break-word;
+    border: 4px solid #000;
+}
+.bottomCard6:hover{
+    cursor:pointer;
+}
+
+.bottomCard6{
+    width: 30vw;
+    height:auto;
+    position:relative;
+    background: linear-gradient(90deg, #50d607 1.18%, #75d669 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+    margin: 10px;
+    color:rgb(19, 2, 49);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    overflow: hidden;
+    word-wrap: break-word;
+    border: 4px solid #000;
+}
+
+.introText{
+    text-align: center;
+    color: rgb(141, 14, 221);
+    font-size: 1rem;
+    font-weight:600;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+.playerScore{
+    text-align: center;
+}
+
+.score{
+    font-family: "Ubuntu", sans-serif;
+    color:#f00a0a
+}
+
